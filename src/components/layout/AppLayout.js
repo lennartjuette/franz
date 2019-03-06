@@ -162,7 +162,7 @@ export default @observer class AppLayout extends Component {
                     </a>
                   </InfoBar>
                 )}
-                {isDelayAppScreenVisible && (<DelayApp />)}
+
                 <BasicAuth />
                 {services}
               </div>
